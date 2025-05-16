@@ -11,12 +11,12 @@ var cancellable = function (fn, args, t) {
 const result = [];
 
 const fn1 = (x) => {
-  return x * 5;
+  return x ** 2;
 };
 
 const args = [2];
-const t = 2000;
-const cancelTimesMs = 3000;
+const t = 100;
+const cancelTimesMs = 50;
 
 const start = performance.now();
 console.log(start);
